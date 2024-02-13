@@ -16,7 +16,7 @@ pipeline {
             steps {
                 echo "-------start building image----------"
                 dir ('jenkins+docker') {
-                          sh 'docker build -t toolxob:latest .'
+                          sh 'docker build -t gzsv/toolbox:latest .'
                       }
                 }
             }
